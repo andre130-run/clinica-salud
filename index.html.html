@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clínica Vida Saludable</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Clínica Vida Saludable</h1>
+    <nav>
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#servicios">Servicios</a></li>
+        <li><a href="#nosotros">Nosotros</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="inicio" class="hero">
+    <h2>Tu salud es nuestra prioridad</h2>
+    <p>Ofrecemos atención médica de calidad con los mejores especialistas.</p>
+    <button onclick="mostrarMensaje()">Más información</button>
+  </section>
+
+  <section id="servicios" class="contenedor">
+    <h2>Servicios Médicos</h2>
+    <div class="tarjetas">
+      <div class="tarjeta">
+        <img src="https://th.bing.com/th/id/R.9aa0d307d677cbcd849e103d494be2f8?rik=HMblGaMQjBfrwA&pid=ImgRaw&r=0" alt="Consulta médica">
+        <h3>Consultas Generales</h3>
+        <p>Diagnóstico y seguimiento para mantenerte en buen estado de salud.</p>
+      </div>
+      <div class="tarjeta">
+        <img src="https://cdn.pixabay.com/photo/2016/02/04/11/57/heart-1179054_1280.png" alt="Cardiología">
+        <h3>Cardiología</h3>
+        <p>Atención especializada para cuidar tu corazón y prevenir enfermedades.</p>
+      </div>
+      <div class="tarjeta">
+        <img src="https://tse2.mm.bing.net/th/id/OIP.BMbzNEEMAmkcBydQvcfHqQHaE8?rs=1&pid=ImgDetMain&o=7&rm=3" alt="Urgencias">
+        <h3>Urgencias</h3>
+        <p>Disponibles las 24 horas para atender emergencias médicas.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="nosotros" class="contenedor">
+    <h2>Sobre Nosotros</h2>
+    <p>Somos una clínica comprometida con la salud y el bienestar de nuestros pacientes, ofreciendo tecnología moderna y atención humana.</p>
+    <img src="">
+  </section>
+
+ <form 
+action="https://formspree.io/f/xdkpjawp"
+method="POST"
+>
+  <div class="campo">
+    <label for="nombre">Nombre completo:</label>
+    <input type="text" id="nombre" name="nombre" required>
+  </div>
+
+  <div class="campo">
+    <label for="correo">Correo electrónico:</label>
+    <input type="email" id="correo" name="correo" required>
+  </div>
+
+  <div class="campo">
+    <label for="fecha">Fecha de cita:</label>
+    <input type="date" id="fecha" name="fecha" required>
+  </div>
+
+  <div class="campo">
+    <label for="mensaje">Motivo de la cita:</label>
+    <textarea id="mensaje" name="mensaje" rows="4"></textarea>
+  </div>
+
+  <button type="submit">Enviar solicitud</button>
+</form>
+
+
+  <div class="info-contacto">
+    <p>📍 Calle sur#3920, Monterrey, México</p>
+    <p>📞 (81) 8461 1610</p>
+    <p>✉️ andresanchezheredia70@gmail.com</p>
+  </div>
+</section>
+
+
+  <footer>
+    <p>© 2025 Clínica Vida Saludable. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
