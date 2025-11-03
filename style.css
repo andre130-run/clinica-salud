@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #0078AA;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.hero {
+  background: url('https://cdn.pixabay.com/photo/2016/11/14/04/45/doctor-1822458_960_720.jpg') center center no-repeat;
+  background-size: contain; /* Hace que la imagen se ajuste sin cortarse */
+  background-color: #0078AA; /* Fondo de respaldo si la imagen no llena todo */
+  color: white;
+  text-align: center;
+  padding: 80px 20px;
+  min-height: 60vh; /* Hace que siempre tenga buena proporción */
+}
+
+.hero h2 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.hero button {
+  background-color: #00B4D8;
+  border: none;
+  padding: 10px 20px;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.hero button:hover {
+  background-color: #0096C7;
+}
+
+.contenedor {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.tarjetas {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.tarjeta {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  width: 300px;
+  padding: 20px;
+}
+
+.tarjeta img {
+  width: 100px;
+  height: 100px;
+}
+
+footer {
+  background: #023E8A;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+}
+
+.contacto p {
+  margin: 10px 0;
+}
+
+form {
+  max-width: 500px;
+  margin: 30px auto;
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  text-align: left;
+}
+
+.campo {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+button[type="submit"] {
+  background-color: #00B4D8;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 1rem;
+}
+
+button[type="submit"]:hover {
+  background-color: #0096C7;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.corazon {
+  display: block;
+  max-width: 350px;     /* Tamaño máximo (puedes ajustar) */
+  width: 80%;           /* Ocupa 70% del ancho de la pantalla */
+  height: auto;         /* Mantiene proporción */
+  margin: 40px auto;    /* Centrada con espacio alrededor */
+}
